@@ -1,1 +1,10 @@
-1st exercise on matering git
+| Command        | From → To                              | Purpose                  |
+| -------------- | -------------------------------------- | ------------------------ |
+| `git add`      | Working Dir → Staging                  | Prepare changes          |
+| `git commit`   | Staging → Local Repo                   | Save snapshot history    |
+| `git push`     | Local Repo → Remote Repo               | Share work               |
+| `git pull`     | Remote Repo → Local Repo + Working Dir | Get updates              |
+| `git fetch`    | Remote Repo → Local Repo               | Download without merging |
+| `git checkout` | Local Repo → Working Dir               | Switch versions          |
+| `git reset`    | Edit staging or commit history         | Undo operations          |
+| `git clone`    | Remote → Full Local Copy               | Start new workspace      |
