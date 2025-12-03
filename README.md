@@ -1,6 +1,15 @@
 1. Cloned repo:
 ```
-git clone https://github.com/<your-username>/L100.git
+mkdir L100 && cd L100
+git init
+# Optionally create a README
+echo "# L100" > README.md
+git add README.md
+git commit -m "Initial commit: README"
+# Add remote and push
+git remote add origin https://github.com/<your-username>/L100.git
+git branch -M main
+git push -u origin main
 ```
 2. Created files, staged, and committed:
 ```
