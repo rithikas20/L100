@@ -7,6 +7,7 @@ git clone https://github.com/<your-username>/L100.git
 echo "Exercise 1" > ex1.txt
 git add ex1.txt
 git commit -m "Adding exercise1"
+git status
 ```
 
 
@@ -40,7 +41,7 @@ git cat-file -p <commit-hash>
 ```
 (Include full commit output and explanation)
 
-## . Diff, staged vs unstaged
+## Diff, staged vs unstaged
 1. Create a few commits for testing
 echo "one" > a.txt; git add a.txt; git commit -m "one"
 2. Work on a file
